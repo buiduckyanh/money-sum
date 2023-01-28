@@ -3,9 +3,15 @@ const allElements = document.querySelectorAll("*");
 window.console.log("Num of Element: " + allElements.length);
 var doneClick = true;
 document.addEventListener("click", clickFn);
+// document.addEventListener("keydown", keyFn);
 
 function clickFn() {
   // window.console.log("Mouse Clicked.......................................");
+  lineSum();
+  lastSum();
+}
+function keyFn() {
+  // window.console.log("Key Pressed.......................................");
   lineSum();
   lastSum();
 }
@@ -15,6 +21,11 @@ allElements.forEach((item) => {
     // window.console.log("Item Onclick: "+item);
     if (item.id == "reset-all") {
       resetAll();
+      return;
+    }
+    if (item.id == "sum") {
+      // window.console.log("Summmmmmmmmmmm");
+      clickFn();
       return;
     }
   };
