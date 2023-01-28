@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bảng Tính Tiền</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Bảng Tính Tiền</h2>
+      <table id = "table">
+        <!--*********************Hang Tiêu Đề: Title -->
+        <tr class="tr-row-title">
+          <td width="10%">No</td>
+          <td width="20%">Tờ Tiền</td>
+          <td width="20%">Mệnh Giá</td>
+          <td width="20%">SL</td>
+          <td width="30%">Tổng</td>
+        </tr>
+        <!--*********************Hang 1: Tờ 500k -->
+        <tr class="tr-td-row-0">
+          <td class="td-row-0">1</td>
+          <td class="td-row-0" id="td-name-0">Tờ 500k</td>
+          <td class="td-row-0" id="td-price-0">500k</td>
+          <td class="td-row-0" id="td-amount-0">
+            <input
+              type="number"
+              id="input-amount-0"
+              min="0"
+              max="1000000"
+              value="0"
+            />
+          </td>
+          <td class="td-row-0" id="td-total-0">0k</td>
+        </tr>
+         <!--*********************Hang 2: Tờ 200k -->
+        <tr class="tr-td-row-1">
+          <td class="td-row-1">2</td>
+          <td class="td-row-1" id="td-name-1">Tờ 200k</td>
+          <td class="td-row-1" id="td-price-1">200k</td>
+          <td class="td-row-1" id="td-amount-1">
+            <input
+              type="number"
+              id="input-amount-1"
+              min="0"
+              max="1000000"
+              value="0"
+            />
+          </td>
+          <td class="td-row-1" id="td-total-1">0k</td>
+        </tr>
+        <!--*********************Hang 3: Tờ 100k -->
+        <tr class="tr-td-row-2">
+          <td class="td-row-2">3</td>
+          <td class="td-row-2" id="td-name-2">Tờ 100k</td>
+          <td class="td-row-2" id="td-price-2">100k</td>
+          <td class="td-row-2" id="td-amount-2">
+            <input
+              type="number"
+              id="input-amount-2"
+              min="0"
+              max="1000000"
+              value="0"
+            />
+          </td>
+          <td class="td-row-2" id="td-total-2">0k</td>
+        </tr>
+        <!--*********************Hang 4: Tờ 50k -->
+        <tr class="tr-td-row-3">
+          <td class="td-row-3">4</td>
+          <td class="td-row-3" id="td-name-3">Tờ 50k</td>
+          <td class="td-row-3" id="td-price-3">50k</td>
+          <td class="td-row-3" id="td-amount-3">
+            <input
+              type="number"
+              id="input-amount-3"
+              min="0"
+              max="1000000"
+              value="0"
+            />
+          </td>
+          <td class="td-row-3" id="td-total-3">0k</td>
+        </tr>
+         <!--*********************Hang 5: Tờ 20k -->
+        <tr class="tr-td-row-4">
+          <td class="td-row-4">5</td>
+          <td class="td-row-4" id="td-name-4">Tờ 20k</td>
+          <td class="td-row-4" id="td-price-4">20k</td>
+          <td class="td-row-4" id="td-amount-4">
+            <input
+              type="number"
+              id="input-amount-4"
+              min="0"
+              max="1000000"
+              value="0"
+            />
+          </td>
+          <td class="td-row-4" id="td-total-4">0k</td>
+        </tr>
+        <!--*********************Hang 6: Tờ 10k -->
+        <tr class="tr-td-row-5">
+          <td class="td-row-5">6</td>
+          <td class="td-row-5" id="td-name-5">Tờ 10k</td>
+          <td class="td-row-5" id="td-price-5">10k</td>
+          <td class="td-row-5" id="td-amount-5">
+            <input
+              type="number"
+              id="input-amount-5"
+              min="0"
+              max="1000000"
+              value="0"
+            />
+          </td>
+          <td class="td-row-5" id="td-total-5">0k</td>
+        </tr>
+        <!--*********************Hang 7: Tờ 5k -->
+        <tr class="tr-td-row-6">
+          <td class="td-row-6">7</td>
+          <td class="td-row-6" id="td-name-6">Tờ 5k</td>
+          <td class="td-row-6" id="td-price-6">5k</td>
+          <td class="td-row-6" id="td-amount-6">
+            <input
+              type="number"
+              id="input-amount-6"
+              min="0"
+              max="1000000"
+              value="0"
+            />
+          </td>
+          <td class="td-row-6" id="td-total-6">0k</td>
+        </tr>
+        <!--*********************Hang 8: Tờ 2k -->
+        <tr class="tr-td-row-7">
+          <td class="td-row-7">8</td>
+          <td class="td-row-7" id="td-name-7">Tờ 2k</td>
+          <td class="td-row-7" id="td-price-7">2k</td>
+          <td class="td-row-7" id="td-amount-7">
+            <input
+              type="number"
+              id="input-amount-7"
+              min="0"
+              max="1000000"
+              value="0"
+            />
+          </td>
+          <td class="td-row-7" id="td-total-7">0k</td>
+        </tr>
+        <!--*********************Hang 9: Tờ 1k -->
+        <tr class="tr-td-row-8">
+          <td class="td-row-8">9</td>
+          <td class="td-row-8" id="td-name-8">Tờ 1k</td>
+          <td class="td-row-8" id="td-price-8">1k</td>
+          <td class="td-row-8" id="td-amount-8">
+            <input
+              type="number"
+              id="input-amount-8"
+              min="0"
+              max="1000000"
+              value="0"
+            />
+          </td>
+          <td class="td-row-8" id="td-total-8">0k</td>
+        </tr>
+        <!--.........................-->
+      </table>
+      <h2 id="last-sum">0 đ</h2>
+      <br />
+      <br />
+      <button id="reset-all"><h2>Tính Lại</h2></button>
+      <h5>Version 0.0.1</h5>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
