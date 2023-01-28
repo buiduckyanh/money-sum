@@ -28,6 +28,9 @@ allElements.forEach((item) => {
       clickFn();
       return;
     }
+    if (item.id.startsWith("input")) {
+      item.select();
+    }
   };
 });
 
